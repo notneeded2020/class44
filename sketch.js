@@ -60,7 +60,7 @@ function draw() {
 
   for (var i = 0; i < friendGrp.length; i++){
    if (friendGrp.get(i).isTouching(bread)){
-     //friendGrp.get(i).setVelocityYEach(0);
+     friendGrp.get(i). velocityY = 0;
    }
   }
 
